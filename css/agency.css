@@ -1081,3 +1081,12 @@ img::-moz-selection {
 #homepage{
 	background-image: url(./banner.jpg); 
 }
+
+.dropdown-menu{
+  background-color:black;
+  padding:10px;
+}
+
+.entry{
+  margin-top:150px;
+}
