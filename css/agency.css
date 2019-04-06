@@ -1809,6 +1809,28 @@ h6 {
   background-attachment: fixed;
 }
 
+
+.media-bg{
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+
+
+.music-bg{
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
 /* /Users/tmj/Desktop/uhhp/images/shabazz-hiphop_1024.jpg */
 
 .flip-card {
@@ -1846,9 +1868,18 @@ h6 {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color:white;
+  color:black;
   transform: rotateY(180deg);
   z-index: 1;
+}
+
+.text{
+  margin:20px 0px;
+  font-size:15px;
+}
+
+.card-title{
+   color:#4183D7;
 }
 
