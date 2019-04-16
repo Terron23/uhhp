@@ -50,6 +50,7 @@ h6 {
 }
 .bg-light-gray {
   background-color: #eeeeee;
+  background-attachment: fixed;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -762,7 +763,7 @@ aside.clients img {
 }
 
 section#contact .section-heading {
-  color: white;
+  color: black;
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -1793,7 +1794,7 @@ h6 {
 .history{
   display: table;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/shabazz-hiphop_1024.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/shabazz-hiphop_1024.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -1802,7 +1803,7 @@ h6 {
 .main-bg{
   display: table;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/8.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/8.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -1813,7 +1814,7 @@ h6 {
 .media-bg{
   display: table;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/9.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -1883,3 +1884,7 @@ h6 {
    color:#4183D7;
 }
 
+
+.sc-font-light{
+  font-size: 125px;
+}
